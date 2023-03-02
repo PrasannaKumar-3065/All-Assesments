@@ -101,7 +101,8 @@ class Array{
                 n=1;
             }
         }catch(Exception e){
-            
+            String s = ""+e;
+            LOGGER.info(s);
         }
         }while(n == 0);
         

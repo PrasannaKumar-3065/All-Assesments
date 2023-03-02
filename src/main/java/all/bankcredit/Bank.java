@@ -20,7 +20,7 @@ public class BANK
         String date = sc.next();
         CREDIT c = new CREDIT(holdername, number, date);
         CREDIT c1 = new CREDIT(c);
-        String s = "New Credit Card Details :\nHoldername: "+c1.holdername+"\nCard number : "+c1.number+"\nExpiration Date: "+c1.date;
+        String s = "New Credit Card Details :\nHoldername: "+c1.holdername+"\nCard-number : "+c1.number+"\nExpiration-Date: "+c1.date;
         int n = 1;
         LOGGER.info(s);
         do{
@@ -30,7 +30,7 @@ public class BANK
                 if(m == 1){
                     LOGGER.info(card);
                     c1.number  = sc.nextInt();
-                    s = "Updated Credit Card Details :\nHoldername: "+c1.holdername+"\nCard number : "+c1.number+"\nExpiration Date: "+c1.date;
+                    s = "Updated Credit Card Details :\nHoldername: "+c1.holdername+"\nCard : "+c1.number+"\nExpiration: "+c1.date;
                     LOGGER.info(s);
                 }
                 else if(m == 2){

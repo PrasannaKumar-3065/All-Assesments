@@ -2,7 +2,7 @@ package all.bankcredit;
 import java.util.*;
 import java.util.logging.*;
 
-public class Bank 
+public class BANK 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
     public static void run()

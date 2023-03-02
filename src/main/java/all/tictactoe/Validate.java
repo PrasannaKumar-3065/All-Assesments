@@ -7,7 +7,9 @@ public class Validate {
     static Scanner sc = new Scanner(System.in);
     static char[][] arr;
     private static final Logger LOGGER = Logger.getLogger("InfoLogging");
-
+    protected Validate(){
+        LOGGER.info("\nValidating....\n");
+    }
     protected static void assign(int user, int x, int y) {
         if (arr[x - 1][y - 1] == ' ') {
             if (user == 1) {

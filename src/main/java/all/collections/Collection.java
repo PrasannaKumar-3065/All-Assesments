@@ -42,8 +42,8 @@ public class Collection{
     }
     private static void hashmap(){
             HashMap<String,String> hash = new HashMap<String,String>();
-            hash.put("stu101","prasanna");
-            hash.put("stu102","nixon");
+            hash.put("stu101","prasanna-");
+            hash.put("stu102","nixon-");
             hash.put("stu103","jeeva");
             hash.put("stu104","vignesh");
             String s = ""+hash;
@@ -65,9 +65,9 @@ public class Collection{
     }
     private static void hashset(){
         HashSet<Studentdetails> set = new HashSet<Studentdetails>();
-        Studentdetails sd1 = new Studentdetails("prasanna", "1st street", 101);
+        Studentdetails sd1 = new Studentdetails("prasanna-", "1st street", 101);
         set.add(sd1);
-        sd1 = new Studentdetails("nixon","2nd Street", 102);
+        sd1 = new Studentdetails("nixon-","2nd Street", 102);
         set.add(sd1);
         sd1 = new Studentdetails("vignesh", "3rd Street", 103);
         set.add(sd1);

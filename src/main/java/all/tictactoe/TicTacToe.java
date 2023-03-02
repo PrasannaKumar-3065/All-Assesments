@@ -51,7 +51,8 @@ public class TicTacToe extends Validate {
                     st = 1;
                 }
         }catch(Exception e){
-            e.printStackTrace();
+            String s =""+e;
+            LOGGER.info(s);
             sc.nextLine();
         }
         } while (st == 0);

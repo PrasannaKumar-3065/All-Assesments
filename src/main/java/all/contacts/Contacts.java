@@ -7,6 +7,9 @@ import java.util.*;
 
 public class Contacts {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
+    protected Contacts(){
+        LOGGER.info("Contacts initiated");
+    }
     public static void run(){
         Contactlist l =new Contactlist();
         Scanner sc = new Scanner(System.in);

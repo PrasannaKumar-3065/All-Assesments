@@ -4,6 +4,9 @@ import java.util.logging.*;
 public class SimpleBankAccount 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
+    protected SimpleBankAccount(){
+        LOGGER.info("Simple Bank Account initiated");
+    }
     public static void run()
     {
         Scanner sc = new Scanner(System.in);

@@ -7,6 +7,9 @@ import java.util.*;
 public class AcccessPoints 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
+    protected AcccessPoints(){
+        LOGGER.info("Points initiated");
+    }
     public static void run()
     {
         try{

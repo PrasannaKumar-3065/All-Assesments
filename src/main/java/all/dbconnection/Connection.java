@@ -5,6 +5,9 @@ import java.util.logging.Logger;
 public class Connection 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
+    protected Connection(){
+        LOGGER.info("Connection initiated");
+    }
     public static void run()
     {
             Scanner sc = new Scanner(System.in);

@@ -4,6 +4,9 @@ import java.util.logging.Logger;
 
 public class Ds {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
+    protected Ds(){
+        LOGGER.info("Ds initiated");
+    }
     public static void run(){
 
         Scanner sc = new Scanner(System.in);

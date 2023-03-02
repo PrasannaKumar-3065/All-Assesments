@@ -7,6 +7,9 @@ public class Gpa
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
     static Scanner sc = new Scanner(System.in);
+    protected Gpa(){
+        LOGGER.info("Gpa");
+    }
     public static void run()
     {
         int n = 1;

@@ -7,6 +7,10 @@ import java.util.logging.Logger;
 public class FilesRead {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
 
+    protected FilesRead(){
+        LOGGER.info("File reader initialized");
+    }
+
     static StringBuilder data = new StringBuilder("");
     private static void read(File f) throws IOException{
         BufferedReader br = new BufferedReader(new FileReader(f));

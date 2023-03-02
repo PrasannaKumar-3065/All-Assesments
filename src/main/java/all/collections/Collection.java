@@ -6,6 +6,9 @@ import java.util.logging.Logger;
 
 public class Collection{
     public static final Logger Log = Logger.getLogger("InfoLogging");
+    protected Collection(){
+        Log.info("Collections initiated");
+    }
     private static void treeset(){
         TreeSet<String> names = new TreeSet<>(new Comparator<String>() {
             @Override

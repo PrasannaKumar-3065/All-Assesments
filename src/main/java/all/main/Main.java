@@ -20,7 +20,7 @@ import all.tictactoe.TicTacToe;
 public class Main 
 {
     public static final Logger Log = Logger.getLogger("InfoLogging");
-    public static void main( String[] args ) throws CloneNotSupportedException, IOException
+    public static void main( String[] args ) throws IOException
     {
         Scanner sc = new Scanner(System.in);
         int in = 0;

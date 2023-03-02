@@ -92,16 +92,7 @@ class Array{
                 }
             }
             else if(m == 2){
-                LOGGER.info("1.Remove at last 2.search element and remove");
-                int ch = sc.nextInt();
-                if(ch == 1){
-                    remove();
-                }
-                else if(ch == 2){
-                    LOGGER.info("Enter element to remove: ");
-                    int index = sc.nextInt();
-                    remove(index);
-                }
+                remove();
             }
             else if(m ==3){
                 print();

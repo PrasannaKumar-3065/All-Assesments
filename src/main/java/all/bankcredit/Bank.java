@@ -5,6 +5,9 @@ import java.util.logging.*;
 public class BANK 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
+    protected BANK(){
+        LOGGER.info("BANK initiated\n");
+    }
     public static void run()
     {
         String card = "Enter card number: ";

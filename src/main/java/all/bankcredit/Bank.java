@@ -5,7 +5,7 @@ import java.util.logging.*;
 public class Bank 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
-    public static void Run()
+    public static void run()
     {
         String card = "Enter card number: ";
         Scanner sc = new Scanner(System.in);

@@ -34,7 +34,7 @@ public class Main
                     case 3:Gpa.Run();break;
                     case 4:Connection.Run();break;
                     case 5:AcccessPoints.Run();break;
-                    case 6:Bank.Run();break;
+                    case 6:Bank.run();break;
                     case 7:CalculatorDs.Run();break;
                     case 8:Collection.Run();break;
                     case 9:Contacts.Run();break;

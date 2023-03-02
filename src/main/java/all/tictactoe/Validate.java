@@ -4,7 +4,6 @@ import java.util.logging.Logger;
 import java.util.*;
 
 public class Validate {
-    
     static Scanner sc = new Scanner(System.in);
     static char[][] arr;
     private static final Logger LOGGER = Logger.getLogger("InfoLogging");

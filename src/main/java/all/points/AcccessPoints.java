@@ -7,7 +7,7 @@ import java.util.*;
 public class AcccessPoints 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
-    public static void run() throws CloneNotSupportedException
+    public static void run()
     {
         try{
             Scanner sc = new Scanner(System.in);

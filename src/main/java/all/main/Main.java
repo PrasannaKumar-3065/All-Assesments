@@ -42,7 +42,7 @@ public class Main
                     case 11:FilesRead.run();break;
                     case 12: StudentTest.run();break;
                     case 13:TicTacToe.run();break;
-                    case 14:in=1;break;
+                    default:in=1;break;
                 }
             }catch(Exception e){
                 String s = ""+e;

@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Contacts {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
-    public static void Run(){
+    public static void run(){
         Contactlist l =new Contactlist();
         Scanner sc = new Scanner(System.in);
         int n = 0;

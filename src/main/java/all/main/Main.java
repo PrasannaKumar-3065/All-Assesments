@@ -3,7 +3,7 @@ import java.util.logging.Logger;
 import java.io.IOException;
 import java.util.*;
 
-import all.bankcredit.Bank;
+import all.bankcredit.BANK;
 import all.calculatords.CalculatorDs;
 import all.collections.Collection;
 import all.contacts.Contacts;
@@ -29,19 +29,19 @@ public class Main
                 Log.info("1.Simple-Bank-Account\n2.Shape-Area\n3.Student-Gpa\n4.Database-Connection\n5.Points-Difference\n6.Bank-Credit-Card\n7.Simple-Calculator\n8.Java-Collections\n9.Contacts\n10.DataStructures\n11.File-Reading\n12.Student-DataStructures\n13.TicTacToe\n14.Exit");
                 int choice = sc.nextInt();
                 switch(choice){
-                    case 1:SimpleBankAccount.Run();break;
-                    case 2:Shape.Run();break;
-                    case 3:Gpa.Run();break;
-                    case 4:Connection.Run();break;
-                    case 5:AcccessPoints.Run();break;
-                    case 6:Bank.run();break;
-                    case 7:CalculatorDs.Run();break;
-                    case 8:Collection.Run();break;
-                    case 9:Contacts.Run();break;
-                    case 10:Ds.Run();break;
-                    case 11:FilesRead.Run();break;
-                    case 12: StudentTest.Run();break;
-                    case 13:TicTacToe.Run();break;
+                    case 1:SimpleBankAccount.run();break;
+                    case 2:Shape.run();break;
+                    case 3:Gpa.run();break;
+                    case 4:Connection.run();break;
+                    case 5:AcccessPoints.run();break;
+                    case 6:BANK.run();break;
+                    case 7:CalculatorDs.run();break;
+                    case 8:Collection.run();break;
+                    case 9:Contacts.run();break;
+                    case 10:Ds.run();break;
+                    case 11:FilesRead.run();break;
+                    case 12: StudentTest.run();break;
+                    case 13:TicTacToe.run();break;
                     case 14:in=1;break;
                 }
             }catch(Exception e){

@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 public class Collection{
     public static final Logger Log = Logger.getLogger("InfoLogging");
-    public static void treeset(){
+    private static void treeset(){
         TreeSet<String> names = new TreeSet<>(new Comparator<String>() {
             @Override
             public int compare(String s1, String s2) {
@@ -37,7 +37,7 @@ public class Collection{
         Log.info(size);  
         names.clear();
     }
-    public static void hashmap(){
+    private static void hashmap(){
             HashMap<String,String> hash = new HashMap<String,String>();
             hash.put("stu101","prasanna");
             hash.put("stu102","nixon");
@@ -60,7 +60,7 @@ public class Collection{
             s = ""+hash.get("stu101");
             Log.info(s);
     }
-    public static void hashset(){
+    private static void hashset(){
         HashSet<Studentdetails> set = new HashSet<Studentdetails>();
         Studentdetails sd1 = new Studentdetails("prasanna", "1st street", 101);
         set.add(sd1);
@@ -85,7 +85,7 @@ public class Collection{
         s1 = ""+sd1.hashCode();
         Log.info(s1);
     }
-    public static void Run() {
+    public static void run() {
         Scanner sc = new Scanner(System.in);
         int h = 0;
        do{

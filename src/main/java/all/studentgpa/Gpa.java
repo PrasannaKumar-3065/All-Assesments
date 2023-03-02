@@ -7,7 +7,7 @@ public class Gpa
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
     static Scanner sc = new Scanner(System.in);
-    public static void Run()
+    public static void run()
     {
         int n = 1;
         LOGGER.info("Enter Name: ");

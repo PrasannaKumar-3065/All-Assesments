@@ -8,15 +8,7 @@ public class FilesRead {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
 
     static StringBuilder data = new StringBuilder("");
-    public static void write(File f, String s) throws IOException{
-        read(f);
-        data.append(" "+s);
-        BufferedWriter bw = new BufferedWriter(new FileWriter(f));
-        bw.write(" "+data);
-        bw.close();
-        data.setLength(0);
-    }
-    public static void read(File f) throws IOException{
+    private static void read(File f) throws IOException{
         BufferedReader br = new BufferedReader(new FileReader(f));
         int i;
         while((i=br.read())!=-1){
@@ -24,7 +16,7 @@ public class FilesRead {
         }
         br.close();
     }
-    public static void Run() throws IOException{
+    public static void run() throws IOException{
         String path = "C:\\Users\\Tringapps-User5\\Desktop\\Maven projects\\ds\\src\\main\\java\\pk\\1.txt";
         File f = new File(path);
         read(f);

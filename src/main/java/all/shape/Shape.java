@@ -6,7 +6,7 @@ public class Shape {
     private static final Logger LOGGER =  Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
     static Scanner sc = new Scanner(System.in);
 
-    public static void Run(){
+    public static void run(){
         int n = 1;
         do{
             try{

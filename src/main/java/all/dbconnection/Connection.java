@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 public class Connection 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
-    public static void Run()
+    public static void run()
     {
             Scanner sc = new Scanner(System.in);
             LOGGER.info("Enter connection string: "); 

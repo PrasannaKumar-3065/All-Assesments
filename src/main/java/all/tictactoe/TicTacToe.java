@@ -9,7 +9,7 @@ public class TicTacToe extends Validate {
 
     private static final Logger LOGGER = Logger.getLogger("InfoLogging");
 
-    public static void Run() {
+    public static void run() {
         LOGGER.info("Enter dimensions for tic-tac-toe:");
         int dim = sc.nextInt();
         createGrid(dim);

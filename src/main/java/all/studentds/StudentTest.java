@@ -5,7 +5,7 @@ import java.util.logging.*;
 public class StudentTest 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
-    public static void Run()
+    public static void run()
     {
         Scanner sc = new Scanner(System.in);
         ArrayList<Student> l = new ArrayList<Student>();

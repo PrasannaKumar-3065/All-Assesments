@@ -4,7 +4,7 @@ import java.util.logging.*;
 public class SimpleBankAccount 
 {
     private static final Logger LOGGER =  Logger.getLogger("InfoLogging");
-    public static void Run()
+    public static void run()
     {
         Scanner sc = new Scanner(System.in);
         LOGGER.log(Level.INFO,"My bank \n");

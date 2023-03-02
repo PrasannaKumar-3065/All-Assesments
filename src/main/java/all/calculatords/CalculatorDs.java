@@ -33,7 +33,7 @@ public class CalculatorDs extends Calculator {
     static Calculator c = new CalculatorDs();
     static String msg = "Enter a value: ";
 
-    public static void Run() {
+    public static void run() {
         Scanner sc = new Scanner(System.in);
         double n = 0;
         do {
